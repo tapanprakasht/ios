@@ -5,7 +5,7 @@ osx_image: xcode8
 #xcode_sdk: iphonesimulator
 
 script:
- - xcodebuild -project 'Owncloud iOs Client.xcodeproj' -scheme 'Owncloud iOs Client' -sdk iphonesimulator -destination 'platform=iOS Simulator, name=iPhone 6,OS=10.0' build test | xcpretty -c --test --color
+ - xcodebuild -project 'Owncloud iOs Client.xcodeproj' -scheme 'Owncloud iOs Client' -sdk iphonesimulator -destination 'platform=iOS Simulator, name=iphonesimulator10.0' build test | xcpretty -c --test --color
 #-UseSanitizedBuildSystemEnvironment=YES
 
 #before_install:
